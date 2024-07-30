@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>WeTravelers</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">WeTravelers</h1>
+    </header>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-confirmation" style="display:none;">
+                <p>Thank you for contacting us! We will get back to you soon.</p>
+            </div>
+        </section>
+
+    <nav class="type">
+        <input type="radio" name="Photos" id="check1" checked>
+        <input type="radio" name="Photos" id="check2">
+        <input type="radio" name="Photos" id="check3">
+        <input type="radio" name="Photos" id="check4">
+    </nav>
+    <div>
+        <div class="container">
+            <h1 class="Gallery">Gallery</h1>
+            <div class="top-content">
+                <h3 class="Nikon"> Nikon</h3>
+                <label for="check1">All Photos</label>
+                <label for="check2">Gallery</label>
+                <label for="check3">Portrait</label>
+                <label for="check4">Places Visited</label>
+            </div>
+            <main>
+                <p>“What makes photography a strange <br> invention is that its raw materials are light and time.”</p>
+                <div class="photo-gallery">
+                    <div class="london-photo0">
+                        <img class="photo0" src="Img/DSC_0078.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo1">
+                        <img class="photo1" src="Img/DSC_0120.jpg" width="250px" alt="photo">
+                    </div>
+                    <div class="london-photo2">
+                        <img class="photo2" src="Img/DSC_0123.jpg" width="250px" alt="photo">
+                    </div>
+                    <div class="london-photo3">
+                        <img class="photo3" src="Img/DSC_0132.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo4">
+                        <img class="photo4" src="Img/DSC_0191 a colori.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo0">
+                        <img class="photo5" src="Img/DSC_0204.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo1">
+                        <img class="photo6" src="Img/DSC_0216.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo2">
+                        <img class="photo7" src="Img/DSC_0301.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo3">
+                        <img class="photo8" src="Img/DSC_0302-2 copia.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo0">
+                        <img class="photo9" src="Img/DSC_0319.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo1">
+                        <img class="photo10" src="Img/DSC_0320.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo2">
+                        <img class="photo11" src="Img/London 1.jpg" width="300px" alt="photo">
+                    </div>
+                    <div class="london-photo3">
+                        <img class="photo12" src="Img/DSC_0132.jpg" width="300px" alt="photo">
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 WeTravelers </p>
+    </footer>
+</body>
+
+</html>
