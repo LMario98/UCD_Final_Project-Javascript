@@ -1,7 +1,7 @@
-#title
+# title
 1.WeTravelers
 
-##Description
+## Description
 2.This site was created for a project that integrates Html, Css and Javascript.
 A site that shows photos I took around the holidays are displayed like a scrapbook.
 
@@ -18,26 +18,7 @@ A site that shows photos I took around the holidays are displayed like a scrapbo
 - **Interactive Navigation**: Select categories via navigation buttons.
 - **Contact Form**: Send messages with real-time validation and confirmation message.
 
-## Installation and Usage
-
-### Prerequisites
-
-- A modern browser (Google Chrome, Mozilla Firefox, Safari, etc.)
-
-### Installation
-
-1. Clone the repository to your computer:
-```bash
-git clone https://github.com/your-username/WeTravelers.git
-```
-2. Navigate to the project folder:
-```bash
-cd WeTravelers
-```
-
-### Usage
-
-1. Open `index.html` in your browser to view the website.
+1. Open `https://lmario98.github.io/UCD_Final_Project-Javascript/` in your browser to view the website.
 
 ### Code Structure
 
@@ -51,3 +32,6 @@ The CSS file defines the style of the page, ensuring that all elements have a co
 ### `script.js`
 The JavaScript file handles the interactivity of the contact form, including validation and displaying a confirmation message.
 
+#### JavaScript Interactivity Description
+
+The JavaScript code provides several interactive features to the photos in the gallery and implements a simple slider to cycle through the images. Here is a detailed description of the main features:
