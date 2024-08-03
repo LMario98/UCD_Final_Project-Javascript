@@ -35,3 +35,13 @@ The JavaScript file handles the interactivity of the contact form, including val
 #### JavaScript Interactivity Description
 
 The JavaScript code provides several interactive features to the photos in the gallery and implements a simple slider to cycle through the images. Here is a detailed description of the main features:
+1.Change title background color on click: When the element with the class .title is clicked, its background color changes to "blueviolet".
+2.Adding and removing a "test" class when hovering over photos: For each photo with classes .photo0 to .photo12, a mouseover event is added that adds the test class when the mouse moves over the photo.
+A mouseout event removes the test class when the mouse leaves the photo.
+3.Photo slider: The showSlides function creates a slider that cycles through elements with the class london-photo0.
+All elements with the class london-photo0 are hidden.
+Only the current element is shown (cycles every 4 seconds).
+4.Interaction with the contact form: A listener is added to the submit event of the contact form to handle field validation.
+If the fields are not filled in or the email is invalid, a warning message is shown.
+If everything is valid, the form is hidden and a confirmation message is shown.
+A real-time validation is implemented for the email, which changes the border color of the email field to red if the email is invalid.
